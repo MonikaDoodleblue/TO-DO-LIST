@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>TODO List</title>
+</head>
+
+<body>
+    <div class="app">
+        <h4 class="mb-3">TODO List</h4>
+        <form class="modal fade" id="form">
+            <div class="modal-body">
+                <p>Task Title</p>
+                <input type="text" class="form-control" name="" id="textInput">
+                <div id="msg"></div>
+                <br>
+                <p id="todo">Task Date</p>
+                <input type="datetime-local" class="form-control" name="" id="taskdate">
+                <br>
+                <p>Due Date</p>
+                <input type="date" class="form-control" name="" id="dateInput">
+                <br>
+                <p>Description</p>
+                <textarea name="" class="form-control" id="textarea" cols="30" rows="5">
+                </textarea>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" id="add" class="btn btn-primary">Add</button>
+            </div>
+            <h5 class="text-center my-3">Tasks</h5>
+            <div id="tasks">
+            </div>
+        </form>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
